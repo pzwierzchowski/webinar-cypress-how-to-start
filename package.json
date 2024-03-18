@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/pzwierzchowski/webinar-cypress#readme",
   "devDependencies": {
-    "cypress": "^10.9.0"
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.7.0"
   }
 }
